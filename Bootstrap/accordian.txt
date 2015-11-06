@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Bootstrap</title>
+</head>
+<body>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#featured">Example <span class="subhead">Company Name</span></a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#featured">Home</a></li>
+          <li class="active"><a href="#mission">Mission</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#staff">Staff</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+
+<div class="content container">
+  <div class="row">
+    <section class="col-sm-12">
+
+<h1>Services</h1>
+        
+<!--                ///button version///
+<button data-target="#exoticpets" role="button" data-toggle="collapse" class="btn btn-primary" aria-expanded="false" aria-controls="exoticpets">Exotic Pets</button>
+        
+<div class="collapse" id="exoticpets">
+    <h3>Exotic Pets</h3>
+    <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>     
+</div>
+
+                    ///button version 2///
+<a href="#exoticpets" role="button" data-toggle="collapse" class="btn btn-primary" aria-expanded="false" aria-controls="exoticpets">Exotic Pets</a>
+        
+<div class="collapse" id="exoticpets">
+    <h3>Exotic Pets</h3>
+    <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>     
+</div> -->
+        
+<div class="panel-group" id="accordian" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-primary">
+        <div class="panel-heading" role="tab" id="heading1">
+            <h4 class="panel-title">
+                <a href="#exoticpets" role="button" data-toggle="collapse" data-parent="#accordian" aria-expanded="false" aria-controls="exoticpets">Exotic Pets</a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse in" id="exoticpets" role="tabpanel" aria-labelledby="heading1">
+            <div class="panel-body">
+                <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p> 
+            </div>
+        </div>
+    </div> 
+    
+    <div class="panel panel-primary">
+        <div class="panel-heading" role="tab" id="heading2">
+            <h4 class="panel-title">
+                <a href="#grooming" role="button" data-toggle="collapse" data-parent="#accordian" aria-expanded="false" aria-controls="grooming">Grooming</a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse" id="grooming" role="tabpanel" aria-labelledby="heading2">
+            <div class="panel-body">
+                <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="panel panel-primary">
+        <div class="panel-heading" role="tab" id="heading3">
+            <h4 class="panel-title">
+                <a href="#generalhealth" role="button" data-toggle="collapse" data-parent="#accordian" aria-expanded="false" aria-controls="generalhealth">General Health</a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse" id="generalhealth" role="tabpanel" aria-labelledby="heading3">
+            <div class="panel-body">
+                <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </section>
+  </div><!-- row -->   
+</div><!-- content container -->
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
