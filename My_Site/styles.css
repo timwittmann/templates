@@ -1,0 +1,174 @@
+body {
+	font-family: Helvetica;
+	background-color: #cc0066;
+	color: #33cc00;
+	width: 950;
+	margin: 0;
+	padding: 0;
+}
+
+header nav {
+	height: 130px;
+	padding: 0;
+	text-align: center;
+	background: url('images/logo.jpg') center center no-repeat;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+
+header nav ul li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 105px 10px 0 10px;
+	font-weight: 700;
+}
+
+header nav ul li a {
+	color: #33cc00;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header nav ul li a:hover {
+	color: #53045f;
+	padding: 0;
+	background-color: #33cc00;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+#footer {
+	background-color: black;
+	margin: 0;
+	padding: 10px;	
+}
+
+p {
+	font-style: Helvetica, Arial, Times;
+	margin-left: 10px;
+}
+
+img {
+	border: solid 3px #33cc00;
+}
+
+dl {
+	font-size: 10px;
+	color: #33cc00;
+}
+
+.container h2 {
+	text-align: center;
+	color: #53045f;
+}
+
+h3 {
+	color: #53045f;
+}
+
+h4 {
+	color: #53045f;
+	font-size: 2em;
+}
+
+
+h1, h2, h3, dl, address, form {
+	text-align: left;
+}
+
+address {
+	
+}
+
+address ul {
+	list-style: none;
+	text-align: center;
+}
+
+#container {
+	height: 700px;
+	width: 500px;
+	margin: 0 25%;		
+	color: #cc0066;
+}
+
+form {
+	text-align: left;
+	width: 490px;
+	margin: 20px auto 0;
+	padding: 5px;
+	background-image: url('images/hotb&wtits.JPG');
+	background-repeat: no-repeat;
+	border: solid 3px #33cc00;
+	font-family: cursive;
+}
+
+form input {
+	display: block;
+	width: 215px;
+	border: none;
+}
+
+form fieldset legend {
+	color: #33cc00;
+	text-align: center;
+}
+
+form input[type="text"], form input[type="name"], form input[type="email"], form input[type="password"], form textarea {
+	padding: 3px;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #33cc00;
+	border: white;
+	background-color: #545356;	
+}
+
+form input[type="submit"], form input[type="reset"] {
+	border: none;
+	background: url('images/button.jpg');
+	height: 40px;
+	padding: 0 10px;
+	border: solid 1px #33cc00;
+	color: #33cc00;
+	font-family: helvetica, arial, times;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+form textarea {
+	width: 250px;
+	height: 100px;
+}
+
+a:link {
+	color: #33cc00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #33cc00;
+}
+
+a:hover, a:active {
+	color: #53045f;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
