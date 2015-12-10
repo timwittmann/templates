@@ -1,0 +1,101 @@
+body {
+    background-color: #282828;
+}
+
+body h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+body p {
+    color: #ffffff;
+    text-align: center;
+}
+.navbar {
+    margin-top: -5px;
+    margin-bottom: 0px;
+    background-color: #c61025;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+ul.nav a:hover {
+    color: #c61025 !important;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+}
+
+.active {
+    background-color: #A20D1D;
+}
+
+#imfCarousel {
+    margin-bottom: 0px;
+}
+
+.carousel-indicators {
+    margin-bottom: -20px;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+#imf-leaders-title {
+    padding: 50px 0 25px 0;
+}
+
+#imf-title {
+    padding-top: 10px;
+}
+
+#profile {
+    padding-left: 100px;
+}
+
+#jewels {
+    padding-left: 175px;
+}
+
+#game {
+    padding: 10px 10px 10px 10px;
+}
+
+#contact-form {
+    color: #ffffff;
+    padding: 50px 0 0 0;
+}
+
+.btn-default {
+    background-color: #c61025;
+    color: #fff;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+#disclaimer {
+    margin-top: 100px;
+    color: #c61025;
+}
+
+.breadcrumb {
+    background-color: #c61025;
+}
+
+.breadcrumb a { 
+    color: #282828;
+}
+
+ul.breadcrumb a:hover {
+    color: #ffffff !important;
+}
+
+.breadcrumb .active {
+    background-color: #c61025;
+}
